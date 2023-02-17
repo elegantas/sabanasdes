@@ -1,0 +1,340 @@
+html,
+body {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.common-margin-5 {
+    margin: 0 -5px;
+}
+
+.zyro-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.zyro-container .header-wrap {
+    display: table;
+    width: 100%;
+}
+
+.zyro-container .header-wrap .mobile-menu-btn {
+    display: none;
+    cursor: pointer;
+}
+
+.zyro-container .header-wrap .logo-image {
+    text-align: center;
+    padding: 20px 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.zyro-container .header-wrap .logo-image img {
+    width: 200px;
+}
+
+.zyro-container .header-wrap .menu-nav {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.zyro-container .header-wrap .menu-nav .cm-menu .cm-menu-item {
+    display: inline-block;
+}
+
+.zyro-container .header-wrap .menu-nav .cm-menu .cm-menu-item .cm-menu-link {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 200ms ease;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.zyro-container .header-wrap .menu-nav .cm-menu .cm-menu-item .cm-menu-link:hover {
+    color: #eb5055;
+}
+
+.zyro-container .banner-image {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: #333;
+}
+
+.zyro-container .banner-image .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.zyro-container .banner-image .sub-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.zyro-container .banner-image .content {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.zyro-container .banner-image a {
+    text-decoration: none;
+}
+
+.zyro-container .banner-image a:hover {
+    text-decoration: underline;
+}
+
+.zyro-container .banner-image .btn {
+    font-size: 16px;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    background: rgba(66, 66, 66, 0.3);
+}
+
+.zyro-container .product-wrap {
+    margin: 0 -5px;
+}
+
+.zyro-container .product-wrap .title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.zyro-container .product-wrap .sub-title {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.zyro-container .product-wrap .product-item {
+    display: inline-block;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.zyro-container .product-wrap .product-item img {
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.zyro-container .product-wrap .product-item .name {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.zyro-container .product-wrap .product-item .desc {
+    text-align: left;
+    font-size: 13px;
+    color: #666;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
+.zyro-container .product-wrap .product-item .info {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.zyro-container .product-wrap .product-item .info .price {
+    color: #eb5055;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.zyro-container .product-wrap .product-item .link {
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 5px;
+    text-decoration: underline;
+    display: block;
+}
+
+.zyro-container .product-wrap .product-item .link:hover {
+    color: #eb5055;
+}
+
+.zyro-container .adv-img-wrap img {
+    display: inline-block;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+.zyro-container .footer {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 2px solid rgba(33, 33, 33, 0.15);
+}
+
+.zyro-container .footer .footer-link-wrap {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+}
+
+.zyro-container .footer .footer-link-wrap ul {
+    margin-left: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.zyro-container .footer .footer-link-wrap ul .title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: -20px;
+}
+
+.zyro-container .footer ul, 
+.zyro-container .footer li {
+    list-style: disc;
+}
+
+.zyro-container .footer li a {
+    font-size: 14px;
+    text-decoration: underline;
+    line-height: 30px;
+}
+
+.zyro-container .footer .copyright {
+    text-align: center;
+    margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+    .common-margin-5 {
+        margin: 0;
+    }
+
+    .zyro-container {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .zyro-container .header-wrap .logo-image {
+        padding: 0;
+    }
+
+    .zyro-container .header-wrap .mobile-menu-btn {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .zyro-container .header-wrap .mobile-menu-btn .content {
+        width: 25px;
+    }
+
+    .zyro-container .header-wrap .mobile-menu-btn .content img {
+        width: 100%;
+    }
+
+    .zyro-container .header-wrap .logo-image img {
+        max-height: 50px;
+        margin: 10px 0;
+    }
+
+    .zyro-container .header-wrap .menu-nav {
+        display: none;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        left: 0;
+        top: 68px;
+    }
+    
+    .zyro-container .header-wrap .menu-nav .cm-menu .cm-menu-item {
+        display: block;
+        text-align: center;
+        height: 45px;
+        line-height: 45px;
+        margin: 0;
+        background: white;
+    }
+
+    .zyro-container .header-wrap .menu-nav .cm-menu .cm-menu-item:last-child {
+        padding-bottom: 50px;
+    }
+
+    .zyro-container .header-wrap .menu-nav .cm-menu .cm-menu-item .cm-menu-link.active {
+        background: #eb5055;
+        color: white;
+        border: none;
+    }
+
+    .zyro-container .header-wrap .menu-nav .cm-menu .cm-menu-item .cm-menu-link {
+        padding: 0;
+        margin: 0;
+    }
+
+    .zyro-container .adv-image {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .zyro-container .product-wrap {
+        margin: 0;
+    }
+    
+    .zyro-container .product-wrap .product-item {
+        width: 100% !important;
+        padding: 0;
+    }
+
+    .zyro-container .product-wrap .product-item img {
+        width: 100%;
+    }
+
+    .zyro-container .adv-img-wrap img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .zyro-container .product-wrap .product-item .btn {
+        margin-bottom: 20px;
+    }
+
+    .zyro-container .footer {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+}
